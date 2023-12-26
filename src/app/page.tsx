@@ -17,7 +17,7 @@ export default function Home() {
           </div>
 
           <div className={'p-6 max-w-sm mx-auto m-auto bg-gray-800 rounded-xl shadow-lg flex items-center space-x-4 s'}>
-            <Image src={'https://avatars1.githubusercontent.com/u/38597755'} alt={'github'}/>
+            <Image className={'rounded-full'} src={'https://avatars1.githubusercontent.com/u/38597755'} alt={'github'} width={64} height={64}/>
             <div>
               <h1 className={'text-2xl font-medium text-white'}><TextTyper/></h1>
               <h3 className={'text-slate-400'}>Backend Software Engineer</h3>
