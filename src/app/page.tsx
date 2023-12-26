@@ -2,6 +2,7 @@ import Telegram  from "@/app/component/svg/social/Telegram";
 import Github    from "@/app/component/svg/social/Github";
 
 import TextTyper from "@/app/component/text/TextTyper";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -16,9 +17,9 @@ export default function Home() {
           </div>
 
           <div className={'p-6 max-w-sm mx-auto m-auto bg-gray-800 rounded-xl shadow-lg flex items-center space-x-4 s'}>
-            <img className={'h-20 w-20 rounded-full'} alt="github" src="https://avatars1.githubusercontent.com/u/38597755"/>
+            <Image src={'https://avatars1.githubusercontent.com/u/38597755'} alt={'github'}/>
             <div>
-              <h1 className={'text-2xl font-medium text-white'}>Hi, I'm <TextTyper/></h1>
+              <h1 className={'text-2xl font-medium text-white'}><TextTyper/></h1>
               <h3 className={'text-slate-400'}>Backend Software Engineer</h3>
             </div>
           </div>

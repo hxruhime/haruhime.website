@@ -7,10 +7,7 @@ const TextTyper = () => {
     return (
         <TypeAnimation sequence={[
             1000,
-            'Oxycodan',
-            3500,
-            'David',
-            3500
+            'Hi, I\'m David.',
         ]}
                        repeat={0}
                        style={{ fontSize: '1em' }}
