@@ -12,7 +12,7 @@ export default function Home() {
           <div className={'bg-gray-800 rounded-xl shadow-lg flex flex-col justify-center mr-2 ml-auto'}>
             <div className={'flex flex-col justify-center'}>
               <Github link={'https://github.com/oxycodan'}/>
-              <Telegram link={'https://t.me/oxycodan'}/>
+              <Telegram link={'https://t.me/pharmacodynamics'}/>
             </div>
           </div>
 
