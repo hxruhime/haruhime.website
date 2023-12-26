@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prod": "next build && pm2 start node_modules/next/dist/bin/next start -p 3000 --name roxipr.in"
   },
   "dependencies": {
     "next": "14.0.4",
