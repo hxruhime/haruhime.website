@@ -1,5 +1,5 @@
 {
-  "name": "roxipr.in",
+  "name": "ms-cont.in",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -27,6 +27,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/oxycodan/roxipr.in"
+    "url": "https://github.com/oxycodan/ms-cont.in"
   }
 }
