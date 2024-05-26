@@ -10,7 +10,7 @@ const TextTyper = () => {
             'Hi, I\'m David.',
         ]}
                        repeat={0}
-                       style={{ fontSize: '1em' }}
+                       style={{ fontSize: '2em' }}
         >
         </TypeAnimation>
     )
