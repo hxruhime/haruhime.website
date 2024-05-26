@@ -1,9 +1,9 @@
-import { Avatar } from "@nextui-org/react";
+import { Avatar, Link } from "@nextui-org/react";
 
-import Telegram   from "@component/svg/social/Telegram";
-import Github     from "@component/svg/social/Github";
+import Telegram         from "@component/svg/social/Telegram";
+import Github           from "@component/svg/social/Github";
 
-import TextTyper  from "@component/text/TextTyper";
+import TextTyper        from "@component/text/TextTyper";
 
 const Landing = () => {
  return (
@@ -21,7 +21,7 @@ const Landing = () => {
           <Avatar showFallback radius={'full'} size={'lg'} src={'https://avatars1.githubusercontent.com/u/38597755'} alt={'github'} />
           <div>
             <h1 className="font-large text-white"><TextTyper /></h1>
-            <h3 className="text-slate-400">Student | Software Engineer</h3>
+            <h3 className="text-slate-400">Software Engineer @ <Link isExternal href={'https://haruhime.holdings'}>Haruhime Holdings</Link></h3>
           </div>
         </div>
 
