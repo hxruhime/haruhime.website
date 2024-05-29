@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 
-const Github = ({ link }) => {
+const Github = ({ link }: { link: string }) => {
     return (
         <a className="mx-1.5 hover:text-slate-200 text-slate-300 transition-colors duration-300 transform" href={link}>
             <svg className="w-9 h-10 fill-current" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -18,7 +18,9 @@ const Github = ({ link }) => {
                 -.03z"/>
             </svg>
         </a>
-    )
-}
+    );
+};
 
 export default Github;
+
+// path: src/app/component/svg/social/Github.tsx
