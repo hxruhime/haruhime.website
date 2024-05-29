@@ -20,10 +20,8 @@ const Feature = () => {
 
     return (
         <section className="section-wrapper" id="projects">
-
-            <div className="grid gap-12 grid-cols-1 md:grid-cols-2">
+            <div className="grid gap-4 sm:gap-6 md:gap-8 lg:gap-12 grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
                 {projects.map((project) => {
-
                     // @ts-ignore
                     return <ProjectCard key={project.title} project={project}/>
                 })}
